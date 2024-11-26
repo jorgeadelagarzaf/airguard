@@ -5,9 +5,9 @@ import ReactSlider from 'react-slider';
 const RangeSlider = ({ sensor, idCuarto, onRangeUpdate }) => {
   // Map default ranges for each sensor
   const defaultRanges = {
-    temp: { min: 0, max: 30 },
+    temp: { min: 0, max: 40 },
     humedad: { min: 0, max: 100 },
-    calidad: { min: 0, max: 800 },
+    calidad: { min: 0, max: 1000 },
   };
 
   // Initialize range state based on the sensor

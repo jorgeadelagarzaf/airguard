@@ -154,7 +154,7 @@ const Cuarto = () => {
               )}
               {showAllRanges && activeSensors.calidad && ranges.calidad && (
                 <>
-                  <ReferenceLine y={ranges.calidad.min} stroke="orange" strokeDasharray="3 3" label="Calidad Min" />
+                  {/*<ReferenceLine y={ranges.calidad.min} stroke="orange" strokeDasharray="3 3" label="Calidad Min" />*/}
                   <ReferenceLine y={ranges.calidad.max} stroke="orange" strokeDasharray="3 3" label="Calidad Max" />
                 </>
               )}
